@@ -4,6 +4,9 @@
   "description": "Data Access Control Management System - Backend (FSD-25)",
   "main": "src/server.js",
   "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
   "scripts": {
     "start": "node src/server.js",
     "dev": "nodemon src/server.js"
